@@ -1,0 +1,28 @@
+public class Cafe {
+    // 2 fields
+    private String namaCafe;
+    private String alamatCafe;
+
+    // 1 constructor dengan this keyword
+    public Cafe(String namaCafe, String alamatCafe) {
+        this.namaCafe = namaCafe;
+        this.alamatCafe = alamatCafe;
+    }
+
+    // 2 method dengan 3 fields masing-masing
+    public void pesanMakanan(String namaMakanan, int hargaMakanan, int jumlahMakanan) {
+        System.out.println("Nama Cafe: " + this.namaCafe);
+        System.out.println("Alamat Cafe: " + this.alamatCafe);
+        System.out.println("Nama Makanan: " + namaMakanan);
+        System.out.println("Harga Makanan: " + hargaMakanan);
+        System.out.println("Jumlah Makanan: " + jumlahMakanan);
+    }
+
+    public void pesanMinuman(String namaMinuman, int hargaMinuman, String ukuranMinuman) {
+        System.out.println("Nama Cafe: " + this.namaCafe);
+        System.out.println("Alamat Cafe: " + this.alamatCafe);
+        System.out.println("Nama Minuman: " + namaMinuman);
+        System.out.println("Harga Minuman: " + hargaMinuman);
+        System.out.println("Ukuran Minuman: " + ukuranMinuman);
+    }
+}
